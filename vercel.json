@@ -1,0 +1,13 @@
+{
+    "name": "410 Gone",
+    "version": "2",
+    "builds": [{
+        "src": "*.html",
+        "use": "@vercel/static"
+    }],
+    "redirects": {
+        "source": "(/.*)",
+        "destination": "/index.html",
+        "statusCode": 410
+    }
+}
