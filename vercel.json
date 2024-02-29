@@ -5,9 +5,9 @@
         "src": "*.html",
         "use": "@vercel/static"
     }],
-    "redirects": {
+    "redirects": [{
         "source": "(/.*)",
         "destination": "/index.html",
         "statusCode": 410
-    }
+}]
 }
